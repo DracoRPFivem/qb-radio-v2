@@ -15,7 +15,8 @@ Config.RestrictedChannels = {
     },
     [4] = {
         police = true,
-        ambulance = true
+        ambulance = true,
+        mechanic = true,
     },
     [5] = {
         police = true,

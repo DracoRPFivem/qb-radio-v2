@@ -19,6 +19,9 @@ qb-radio Nopixel Inspired Radio (v2) for qb-core
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 
+## Install Video
+- [Youtube](https://youtu.be/bNrmQMvVYno)
+
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
 - [pma-voice](https://githubmate.com/repo/AvarianKnight/pma-voice)
@@ -34,11 +37,11 @@ Add the trigger to your qb-radialmenu > config.lua (Anywhere you want someone to
 ```
             id = 'joinradio1',
             title = 'Channel 1',
-            icon = 'info-circle',
+            icon = 'radio',
             type = 'client',
             event = 'qb-radio:client:JoinRadioChannel1',
             shouldClose = true
-```  
+```
 Credits to MonkeyWhisper for creating the event
 
 ## Preview
